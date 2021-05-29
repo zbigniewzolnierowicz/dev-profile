@@ -14,7 +14,7 @@ export const App: FC = () => {
     <BasePage>
       <Header />
       <main>
-        Content!
+        I am man!
       </main>
     </BasePage>
   )
