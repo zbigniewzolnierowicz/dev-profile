@@ -4,7 +4,6 @@ import styled from "styled-components";
 export const HeaderStyle = styled.header`
   display: flex;
   flex-direction: column;
-  color: ${({theme}) => theme.colors.monochrome[50]};
   font-family: ${({ theme }) => theme.fontFamily.heading};
   width: fit-content;
   align-items: center;
@@ -27,7 +26,8 @@ export const HeaderStyle = styled.header`
 
 const Face = styled.img`
   --margin-y: 1rem;
-  height: 10rem;
+  height: 100px;
+  width: auto;
   border-radius: ${({ theme }) => theme.borderRadius.full};
   margin-block-start: var(--margin-y);
   margin-block-end: var(--margin-y);

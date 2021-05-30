@@ -12,5 +12,6 @@ export const Global = createGlobalStyle`
   html {
     font-family: ${({ theme }) => theme.fontFamily['sans-serif']};
     font-size: 12pt;
+    color: ${({theme}) => theme.colors.monochrome[50]};
   }
 `
