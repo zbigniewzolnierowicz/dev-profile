@@ -52,6 +52,7 @@
   },
   "devDependencies": {
     "@types/jest-axe": "^3.5.1",
+    "@types/react-helmet": "^6.1.1",
     "@types/react-snapshot": "^1.3.0",
     "@types/styled-components": "^5.1.9",
     "prettier": "2.3.0"

@@ -1,6 +1,8 @@
 import { FC } from 'react'
+import { Helmet } from 'react-helmet'
 import styled from 'styled-components'
 import { Header } from './components/Header'
+import info from './data.json'
 
 const BasePage = styled.div`
   display: flex;
@@ -13,6 +15,9 @@ const BasePage = styled.div`
 export const App: FC = () => {
   return (
     <BasePage>
+      <Helmet>
+        <title>{info.name}</title>
+      </Helmet>
       <Header />
       <main>I am man!</main>
     </BasePage>
