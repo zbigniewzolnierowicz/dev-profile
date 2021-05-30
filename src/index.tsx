@@ -20,7 +20,7 @@ render(
 
 if (process.env.NODE_ENV !== 'production') {
   import('@axe-core/react').then(({ default: axe }) => {
-    axe(React, ReactDOM, 1000);
-  });
+    axe(React, ReactDOM, 1000)
+  })
   reportWebVitals(console.log)
 }

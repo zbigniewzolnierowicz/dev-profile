@@ -11,12 +11,14 @@
     "@types/node": "^15.6.1",
     "@types/react": "^17.0.8",
     "@types/react-dom": "^17.0.5",
+    "jest-axe": "^4.1.0",
     "polished": "^4.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
     "react-scripts": "4.0.3",
     "react-snapshot": "^1.3.0",
+    "styled-breakpoints": "^10.0.1",
     "styled-components": "^5.3.0",
     "typeface-space-mono": "^1.1.13",
     "typescript": "^4.3.2",
@@ -49,6 +51,7 @@
     ]
   },
   "devDependencies": {
+    "@types/jest-axe": "^3.5.1",
     "@types/react-snapshot": "^1.3.0",
     "@types/styled-components": "^5.1.9",
     "prettier": "2.3.0"

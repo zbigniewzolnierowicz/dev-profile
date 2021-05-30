@@ -1,11 +1,11 @@
-import { DefaultTheme } from "styled-components";
+import { DefaultTheme } from 'styled-components'
 
 export const theme: DefaultTheme = {
   borderRadius: {
     sm: '1rem',
     md: '1.3rem',
     lg: '2rem',
-    full: '999999px'
+    full: '999999px',
   },
   colors: {
     main: {
@@ -31,10 +31,10 @@ export const theme: DefaultTheme = {
       700: '#404040',
       800: '#262626',
       900: '#0d0d0d',
-    }
+    },
   },
   fontFamily: {
-    "sans-serif": 'sans-serif',
-    "heading": 'Space Mono, sans-serif'
-  }
+    'sans-serif': 'sans-serif',
+    heading: 'Space Mono, sans-serif',
+  },
 }
