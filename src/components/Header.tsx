@@ -1,6 +1,7 @@
 import { FC } from 'react'
 import { down } from 'styled-breakpoints'
 import styled from 'styled-components'
+import info from '../data.json'
 
 export const HeaderStyle = styled.header`
   display: flex;
@@ -52,18 +53,18 @@ export const Header: FC = () => {
     <HeaderStyle>
       <Face
         data-testid="face"
-        src="https://placekitten.com/200/200"
+        src={info.face}
         height={FACE_SQUARE_SIZE_NUMBER}
         width={FACE_SQUARE_SIZE_NUMBER}
         alt="face of the creator of this website"
       />
       <h1>
         <span className="big" data-testid="name">
-          Zbigniew Żołnierowicz
+          {info.name}
         </span>
         <br />
         <span className="small" data-testid="tagline">
-          One hell of a web developer
+          {info.tagline}
         </span>
       </h1>
     </HeaderStyle>
